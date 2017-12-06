@@ -1,0 +1,122 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+[data-entrance] { visibility: hidden; }
+/* Ensure elements are hidden while ScrollEntrance is loading */
+      .js [data-entrance] { visibility: hidden; }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+#navbar {
+  width: 100%;
+}
+
+#logo-container {
+  display: inline-block;
+  height: 100%;
+}
+
+#logo-container img{
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+#navbar > .container > ul > li > a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dropdown-content > li > a {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-transition: margin-left 0.3s; /* Safari */
+  transition: margin-left 0.3s;
+}
+
+.dropdown-content > li > a:hover {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+#navbar > .container > ul > li :hover {
+  color: #227e9c;
+  background-color: white;
+}
+
+#dropdown-arrow {
+  margin-left: 0px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#header {
+  height: 150px;
+  text-align: center;
+}
+
+#header h2 {
+  color: white;
+}
+
+#hubungi {
+  text-align: center;
+}
+
+#hubungi .row {
+  text-align: left;
+}
+
+
+footer.page-footer {
+  margin: 0;
+  background: #227e9c;
+}
+
+#media-sosial img {
+  height: 30px;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  
+
+}
+
+@media only screen and (max-width : 600px) {
+
+}

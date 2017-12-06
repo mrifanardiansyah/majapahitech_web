@@ -1,0 +1,367 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+[data-entrance] { visibility: hidden; }
+/* Ensure elements are hidden while ScrollEntrance is loading */
+      .js [data-entrance] { visibility: hidden; }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+#navbar {
+  width: 100%;
+}
+
+#logo-container {
+  display: inline-block;
+  height: 100%;
+}
+
+#logo-container img{
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+#navbar > .container > ul > li > a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dropdown-content > li > a {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-transition: margin-left 0.3s; /* Safari */
+  transition: margin-left 0.3s;
+}
+
+.dropdown-content > li > a:hover {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+#navbar > .container > ul > li :hover {
+  color: #227e9c;
+  background-color: white;
+}
+
+#dropdown-arrow {
+  margin-left: 0px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#header {
+  height: 150px;
+  text-align: center;
+}
+
+#header h2 {
+  color: white;
+}
+
+#index-banner {
+  height: 570px;
+}
+
+#index-banner .section {
+  padding-top: 0px;
+}
+
+#index-banner .container {
+  height: 580px;
+  width: 80%;
+  background-color: #ffffff40;
+  text-align: center;
+}
+
+#logo-gupala {
+  height: 100px;
+}
+
+.header-title {
+  color: #132A70;
+}
+
+.header-subtitle {
+  color: white;
+}
+
+#header-harga {
+  font-weight: bold;
+  color: white;
+  background-color: #227e9c;
+  padding-bottom: 16px;
+}
+
+#hubungi {
+  text-align: center;
+}
+
+#hubungi .row {
+  text-align: left;
+}
+
+#pesan-button {
+  background-color: #227e9c;
+}
+
+#video-button .fa{
+  color: white;
+}
+
+#subheader {
+  height: 150px;
+  text-align: center;
+}
+
+#subheader h5 {
+  color: white;
+  font-weight: bold;
+}
+
+#index-cara-kerja {
+  text-align: center;
+}
+
+#index-cara-kerja img {
+  height: 100px;
+}
+
+#index-cara-kerja h4 {
+  color: #227e9c;
+}
+
+span{
+  position: relative;
+  padding: 0 5px;
+}
+
+span::before{
+  width: 100px;
+  height: 1px;
+  content: "";
+  top: 50%;
+  position: absolute;
+  background: #ddd;
+  z-index: 1;
+  right: 100%;
+}
+
+span::after{
+  width: 100px;
+height: 1px;
+content: "";
+top: 50%;
+position: absolute;
+background: #ddd;
+z-index: 1;
+left: 100%;
+}
+
+.fa {
+  color: #227e9c;
+  margin-bottom: 16px;
+}
+
+#index-manfaat {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 10px 0px;
+}
+
+#index-manfaat img {
+  height: 80px;
+}
+
+#index-manfaat h4 {
+  color: #227e9c;
+}
+
+#index-manfaat h6 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#index-panduan {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+#index-panduan img {
+  height: 80px;
+}
+
+#index-panduan h4 {
+  color: #227e9c;
+}
+
+#index-panduan h6 {
+  font-weight: bold;
+}
+
+#index-panduan .panduan p {
+  text-align: left;
+  padding-top: 0;
+}
+
+#index-varian {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+#index-varian h4 {
+  color: #227e9c;
+}
+
+#index-varian .card h5 {
+  padding-top: 16px;
+}
+
+#index-varian .card .card-content {
+  text-align: left;
+  padding-top: 0;
+}
+
+#index-varian .card .card-action a {
+  color: #227e9c;
+}
+
+#index-varian .card {
+  transition: transform 0.3s;
+}
+
+#index-varian .card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#index-pembelian {
+  min-height: 330px;
+  height: auto;
+  top : 0%;
+  padding: 10px 0px;
+}
+
+#index-pembelian h4 {
+  color: white;
+}
+
+#index-pembelian .fa {
+  color: white;
+}
+
+#index-pembelian h5{
+  color: white;
+}
+
+#index-pembelian .section {
+    width: 100%;
+    top : 0%;
+    position: absolute;
+}
+
+#index-pembelian .row .col > img {
+  height: 100px;
+  transition: transform 0.3s;
+  margin-bottom: 16px;
+}
+
+#index-pembelian .row .col > img:hover {
+  transform: translateY(-10px);
+}
+
+#tokopedia-button {
+  padding: 10px 25px;
+  background-color: #5CBD54;
+  color: white;
+  border-radius: 5px;
+}
+
+#mitra-button {
+  padding: 10px 25px;
+  background-color: #015B96;
+  color: white;
+  border-radius: 5px;
+}
+
+
+#bukalapak-button {
+  padding: 10px 25px;
+  background-color: #771f1c;
+  color: white;
+  border-radius: 5px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background: #227e9c;
+}
+
+#media-sosial img {
+  height: 30px;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+
+
+}
+
+@media only screen and (max-width : 600px) {
+  #subheader {
+    min-height: 220px;
+    text-align: center;
+  }
+
+  #index-pembelian {
+    min-height: 450px;
+    height: auto;
+  }
+
+  #index-pembelian .row .col:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  #subheader {
+    min-height: 250px;
+    text-align: center;
+  }
+
+}

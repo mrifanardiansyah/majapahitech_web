@@ -1,0 +1,345 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+[data-entrance] { visibility: hidden; }
+/* Ensure elements are hidden while ScrollEntrance is loading */
+      .js [data-entrance] { visibility: hidden; }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+#navbar {
+  width: 100%;
+}
+
+#logo-container {
+  display: inline-block;
+  height: 100%;
+}
+
+#logo-container img{
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+#navbar > .container > ul > li > a {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dropdown-content > li > a {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-transition: margin-left 0.3s; /* Safari */
+  transition: margin-left 0.3s;
+}
+
+.dropdown-content > li > a:hover {
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+#navbar > .container > ul > li :hover {
+  color: #227e9c;
+  background-color: white;
+}
+
+#dropdown-arrow {
+  margin-left: 0px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#index-banner {
+  min-height: 550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+#index-banner .section {
+    width: 100%;
+    top : 10%;
+    position: absolute;
+}
+
+#index-banner h2 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#play-video-button {
+  text-align: center;
+  -webkit-transition: transform 0.3s; /* Safari */
+    transition: transform 0.3s;
+}
+
+#play-video-button:hover {
+  text-align: center;
+  transform: scale(1.1);
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate-up {
+  100% {
+    transform: rotateZ(-4deg);
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+
+.rocky-dashed {
+  animation-delay: .6s;
+}
+
+.header-title {
+  animation-delay: .8s;
+}
+
+.header-subtitle {
+  animation-delay: 1s;
+}
+
+.header-button {
+  animation-delay: 1.1s;
+}
+
+#index-info {
+  min-height: 250px;
+  height: auto;
+}
+
+#index-info .section {
+  top : 10%;
+}
+
+#index-info h4 {
+  font-weight: bolder;
+  color: white;
+}
+
+#index-info h5 {
+  font-weight: light;
+  color: white;
+}
+
+#index-produk {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+#index-produk h4 {
+  color: #227e9c;
+}
+
+.fa-star {
+  color: #227e9c;
+}
+
+span{
+  position: relative;
+  padding: 0 5px;
+}
+
+span::before{
+  width: 100px;
+  height: 1px;
+  content: "";
+  top: 50%;
+  position: absolute;
+  background: #ddd;
+  z-index: 1;
+  right: 100%;
+}
+
+span::after{
+  width: 100px;
+height: 1px;
+content: "";
+top: 50%;
+position: absolute;
+background: #ddd;
+z-index: 1;
+left: 100%;
+}
+
+#index-produk .row {
+  text-align: center;
+}
+
+#index-produk img{
+  height: 100px;
+}
+
+#index-produk .card {
+  padding: 20px 0;
+  min-height: 330px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#index-produk .card:hover {
+  transform: scale(1.05);
+}
+
+#index-produk .btn {
+  background-color: #227e9c;
+}
+
+#index-testimoni {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+#index-testimoni h4 {
+  color: #227e9c;
+}
+
+#index-testimoni h6 {
+  font-size: 1.3rem;
+}
+
+#index-testimoni h5 {
+  font-size: 1.3rem;
+}
+
+#jabatan {
+  font-size: 1rem;
+}
+
+.fa-users {
+  color: #227e9c;
+}
+
+#index-penghargaan {
+  min-height: 300px;
+  top : 0%;
+  padding: 10px 0px;
+}
+
+
+#index-penghargaan .section {
+    width: 100%;
+    top : 0%;
+    position: absolute;
+}
+
+#index-penghargaan .row .col > img {
+  height: 100px;
+  transition: transform 0.3s;
+}
+
+#index-penghargaan .row .col > img:hover {
+  transform: translateY(-10px);
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.page-footer .row .row {
+  margin-bottom: 0;
+}
+
+#index-tentang h4 {
+  color: #227e9c;
+}
+
+#index-tentang img{
+  height: 150px;
+  margin-top: 10px;
+}
+
+.fa-building {
+  color: #227e9c;
+}
+
+footer.page-footer {
+  margin: 0;
+  background: #227e9c;
+}
+
+#media-sosial img {
+  height: 30px;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #index-penghargaan {
+    min-height: 480px;
+    top : 0%;
+    padding: 10px 0px;
+  }
+}
