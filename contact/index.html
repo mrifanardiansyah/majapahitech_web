@@ -73,7 +73,7 @@
     <div class="col s12 m8">
       <h5>Kirim pesan kepada kami</h5>
       <div class="row">
-    <form class="col s12" action="welcome.php" method="post">
+    <form class="col s12" action="kirim_email.php" method="post">
       <div class="row">
         <div class="input-field col s12">
           <input id="name" type="text" class="validate">
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div class="row" style="width:100%; text-align:right;">
-    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <button class="btn waves-effect waves-light" type="submit" name="action">Kirim
         <i class="material-icons right">send</i>
     </button>
 </div>
@@ -154,6 +154,35 @@
       </div>
     </div>
   </footer>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+      <div class="modal-header">
+        <span><h4>Success!</h4></span>
+      </div>
+    <div class="modal-content">
+      <img src="../assets/success.png" alt="">
+      <p>Berhasil mengirim email</p>
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Oke</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+      <div class="modal-header">
+        <span><h4>Gagal!</h4></span>
+      </div>
+    <div class="modal-content">
+      <img src="../assets/gagal.png" alt="">
+      <p>Gagal mengirim email</p>
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Oke</a>
+    </div>
+  </div>
 
 
   <!--  Scripts-->

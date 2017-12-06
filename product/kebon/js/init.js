@@ -15,3 +15,19 @@ playVideoButton.hover(function(){
   playVideoButton.removeClass('animate-pop-in');
 });
  $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+
+ $(function () {
+  $('#vidBox').VideoPopUp({
+   opener: "video-button",
+   idvideo: "demo"
+   });
+ });
+
+ $('#vidBox').VideoPopUp({
+   backgroundColor: "#000000"
+ });
+
+ $('#vidBox').VideoPopUp({
+   maxweight: "640"
+ });

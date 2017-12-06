@@ -14,3 +14,18 @@ playVideoButton.hover(function(){
   playVideoButton.removeClass('animate-pop-in');
 });
  $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+// modal trigger
+var temp = window.location.search;
+var temp2 = temp.substring(1, temp.length);
+var value = temp2.split("=");
+
+
+// When the user clicks on the button, open the modal
+if(value[1] == "masukan") {
+   $('.modal').modal();
+   $('#modal1').modal('open');
+} else if (value[1] == "gagal") {
+  $('.modal').modal();
+  $('#modal2').modal('open');
+}

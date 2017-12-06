@@ -12,6 +12,8 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
   <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/videopopup.css">
+
 </head>
 
 <body>
@@ -63,7 +65,7 @@
               <h5 class="header col s12 light header-subtitle animate-pop-in">Majapahitech adalah sebuah Startup yang berfokus pada IOT(Internet of Things) dan Otomotif, yang akan mempermudah urusan anda dengan penerapan teknologi dalam berbagai bidang</h5>
             </div>
             <div class="row center">
-              <a href="#" id="play-video-button" class="btn-large waves-effect waves-light blue lighten-1 header-button animate-pop-in"><i class="material-icons left">play_circle_outline</i>Play Video</a>
+              <a href="javascript:void(0)" id="play-video-button" class="btn-large waves-effect waves-light blue lighten-1 header-button animate-pop-in"><i class="material-icons left">play_circle_outline</i>Play Video</a>
             </div>
             <br><br>
 
@@ -250,12 +252,22 @@
     </div>
   </footer>
 
+<!-- Modal  -->
+<div id="vidBox">
+  <div id="videCont">
+    <video id="demo" loop controls>
+      <!-- <source src="../assets/video/" type="video/webm"> -->
+      <source src="./assets/video/video.mp4" type="video/mp4">
+    </video>
+   </div>
+</div>
 
   <!--  Scripts-->
   <script src="./js/scroll-entrance-master/src/scroll-entrance.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/videopopup.js"></script>
 
 </body>
 

@@ -12,6 +12,8 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/videopopup.css">
+
 </head>
 
 <body>
@@ -68,7 +70,7 @@
               <a id="pesan-button" target="_blank" href="https://www.tokopedia.com/gupalamajapahit?source=universe&st=product" class="waves-effect waves-light btn">Pesan Sekarang</a>
               <br>
               <br>
-              <a id="video-button"  class="waves-effect waves-light btn"><i class="fa fa-play-circle-o"></i> Lihat Video</a>
+              <a id="video-button" href="javascript:void(0)" class="waves-effect waves-light btn"><i class="fa fa-play-circle-o"></i> Lihat Video</a>
             </div>
             <br><br>
 
@@ -146,7 +148,7 @@
 
     <div class="row">
       <div class="col s12 m4">
-        <div class="card">
+        <div id="varian1" class="card">
           <div class="card-image">
             <h5>Varian 1</h5>
             <div class="title-icon"><span><i class="fa fa-circle-thin "></i></span></div>
@@ -169,7 +171,7 @@
       </div>
 
       <div class="col s12 m4">
-        <div class="card">
+        <div id="varian2" class="card">
           <div class="card-image">
             <h5>Varian 2</h5>
             <div class="title-icon"><span><i class="fa fa-circle-thin "></i></span></div>
@@ -192,7 +194,7 @@
       </div>
 
       <div class="col s12 m4">
-        <div class="card">
+        <div id="varian3" class="card">
           <div class="card-image">
             <h5>Varian 3</h5>
             <div class="title-icon"><span><i class="fa fa-circle-thin "></i></span></div>
@@ -218,7 +220,7 @@
 
     <div class="row">
       <div class="col s12 m4">
-        <div class="card">
+        <div id="varian4" class="card">
           <div class="card-image">
             <h5>Varian 4</h5>
             <div class="title-icon"><span><i class="fa fa-circle-thin "></i></span></div>
@@ -243,7 +245,7 @@
       </div>
 
       <div class="col s12 m4">
-        <div class="card">
+        <div id="varian5" class="card">
           <div class="card-image">
             <h5>Varian 5</h5>
             <div class="title-icon"><span><i class="fa fa-circle-thin "></i></span></div>
@@ -388,12 +390,22 @@
     </div>
   </footer>
 
+  <!-- Modal  -->
+  <div id="vidBox">
+    <div id="videCont">
+      <video id="demo" loop controls>
+        <!-- <source src="../assets/video/" type="video/webm"> -->
+        <source src="../../assets/video/video.mp4" type="video/mp4">
+      </video>
+     </div>
+  </div>
 
   <!--  Scripts-->
   <script src="./js/scroll-entrance-master/src/scroll-entrance.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/videopopup.js"></script>
 
 </body>
 
