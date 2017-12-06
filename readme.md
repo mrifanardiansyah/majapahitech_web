@@ -8,3 +8,6 @@ just front end side of majapahitech website
 
 #### Kebon Page
 ![alt text](https://github.com/mrifanardiansyah/majapahitech_web/blob/screenshot/sc/kebon.png?raw=true)
+
+### Link of the website
+www.majapahitech.com
