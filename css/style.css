@@ -328,19 +328,41 @@ footer.page-footer {
     top: 40%;
   }
   #index-banner .section {
-    top: 15%;
+    top: 10%;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 10%;
+    top: 5%;
   }
 
   #index-penghargaan {
     min-height: 480px;
     top : 0%;
     padding: 10px 0px;
+  }
+
+  #index-info {
+    height: 360px;
+  }
+
+  #index-info .section {
+    top : 5%;
+  }
+}
+
+@media only screen and (max-width : 420px) {
+
+  #index-info {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width : 340px) {
+
+  #index-info {
+    height: 480px;
   }
 }
 

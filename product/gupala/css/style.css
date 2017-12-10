@@ -90,6 +90,10 @@ p {
   text-align: center;
 }
 
+#index-banner .container .row img {
+  height: 30px;
+}
+
 #logo-gupala {
   height: 100px;
 }
@@ -230,6 +234,10 @@ left: 100%;
   color: #227e9c;
 }
 
+#index-varian .card {
+  border:1px solid #227e9c;
+}
+
 #index-varian .card h5 {
   padding-top: 16px;
 }
@@ -245,6 +253,10 @@ left: 100%;
 
 #index-varian .card {
   transition: transform 0.3s;
+}
+
+#index-varian .card p {
+  text-align: justify;
 }
 
 #index-varian .card:hover {
@@ -362,6 +374,10 @@ footer.page-footer {
   #subheader {
     min-height: 250px;
     text-align: center;
+  }
+
+  #index-pembelian .row .col > img {
+    height: 70px;
   }
 
 }
